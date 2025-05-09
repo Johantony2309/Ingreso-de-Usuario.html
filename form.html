@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Next Level ANimated Login Form | Tech Van-Ess</title>
+    <title>Datos de Usuario</title>
 </head>
 <body>
     <div class="login-container">
@@ -16,40 +16,71 @@
                 <span class="text on">On</span>
             </label>
             <div class="login-light"></div>
-            <h2>Login</h2>
+            <h2>Datos del Usuario</h2>
+
+            <!-- Nombre -->
+            <div class="input-box">
+                <span class="icon">
+                    <ion-icon name="person"></ion-icon>
+                </span>
+                <input type="text" required="required">
+                <label>Nombre</label>
+                <div class="input-line"></div>
+            </div>
+
+            <!-- Apellido -->
+            <div class="input-box">
+                <span class="icon">
+                    <ion-icon name="person-outline"></ion-icon>
+                </span>
+                <input type="text" required="required">
+                <label>Apellido</label>
+                <div class="input-line"></div>
+            </div>
+
+            <!-- Teléfono -->
+            <div class="input-box">
+                <span class="icon">
+                    <ion-icon name="call"></ion-icon>
+                </span>
+                <input type="tel" required="required">
+                <label>Teléfono</label>
+                <div class="input-line"></div>
+            </div>
+
+            <!-- Correo -->
             <div class="input-box">
                 <span class="icon">
                     <ion-icon name="mail"></ion-icon>
                 </span>
                 <input type="email" required="required">
-                <label>Email</label>
+                <label>Correo</label>
                 <div class="input-line"></div>
             </div>
 
+            <!-- Cédula -->
             <div class="input-box">
                 <span class="icon">
-                    <ion-icon name="lock-closed"></ion-icon>
+                    <ion-icon name="card"></ion-icon>
                 </span>
-                <input type="password" required="required">
-                <label>Password</label>
+                <input type="text" required="required">
+                <label>Cédula</label>
                 <div class="input-line"></div>
-
             </div>
 
-            <div class="remember-forgot">
-                <label> 
-                    <input type="checkbox">
-                    Remember Me
-                </label>
-                <a href="#">Forgot Password?</a>
+            <!-- Edad -->
+            <div class="input-box">
+                <span class="icon">
+                    <ion-icon name="calendar-number"></ion-icon>
+                </span>
+                <input type="number" required="required">
+                <label>Edad</label>
+                <div class="input-line"></div>
             </div>
-            <button type="submit">Login</button>
-            <div class="register-link">
-                <p>Don't have an account? <a href="#">Register</a></p>
-            </div>
+
+            <button type="submit">Guardar</button>
         </form>
     </div>
-
 
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
