@@ -53,12 +53,14 @@ h2 {
     text-shadow: 0 0 15px var(--light-bacco), 0 0 30px var(--light-bacco);
 }
 
+/* ===== CAMPOS DE ENTRADA (Nombre, Apellido, Teléfono, Correo, Cédula, Edad) ===== */
 .input-box {
     position: relative;
     width: 310px;
     margin: 20px 0;
 }
 
+/* Línea inferior animada */
 .input-box .input-line {
     position: absolute;
     width: 100%;
@@ -125,6 +127,8 @@ h2 {
     color: var(--light-bacco);
     filter: drop-shadow(0 0 5px var(--light-bacco));
 }
+
+/* === El campo Edad hereda todo el estilo de .input-box === */
 
 .remember-forgot {
     display: flex;
@@ -323,5 +327,3 @@ button {
                  0 0 45px var(--light-bacco),
                  0 0 60px var(--light-bacco);
 }
-
-
